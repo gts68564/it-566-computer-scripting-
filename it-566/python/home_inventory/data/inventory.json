@@ -1,0 +1,38 @@
+{
+  "type": "Home Inventory",
+  "date": "2022-10-26",
+  "items": [
+    {
+      "item": "Floorcarpet",
+      "count": 2
+    },
+    {
+      "item": "dinning table",
+      "count": 1
+    },
+    {
+      "item": "lampstand",
+      "count": 2
+    },
+    {
+      "item": "home theater",
+      "count": 1
+    },
+    {
+      "item": "table fan",
+      "count": 2
+    },
+    {
+      "item": "side lamp",
+      "count": 3
+    },
+    {
+      "item": "tv",
+      "count": 2
+    },
+    {
+      "item": "printer",
+      "count": 1
+    }
+  ]
+}

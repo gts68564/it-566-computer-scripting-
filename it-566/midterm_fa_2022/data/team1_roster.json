@@ -1,0 +1,32 @@
+{
+  "type": "real_madrid",
+  "date": "2022-10-26",
+  "sport": "soccer",
+  "country": "Germany",
+  "members": [
+    {
+      "name": "ronaldo",
+      "age": 32
+    },
+    {
+      "name": "Samuel Etoo",
+      "age": 30
+    },
+    {
+      "name": "Messi",
+      "age": 31
+    },
+    {
+      "name": "Iniester",
+      "age": 30
+    },
+    {
+      "name": "fidel",
+      "age": 26
+    },
+    {
+      "name": "Mbape",
+      "age": 25
+    }
+  ]
+}

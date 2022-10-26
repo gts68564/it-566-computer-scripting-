@@ -1,0 +1,50 @@
+{
+      "class": "IT566",
+      "date": "2022-10-16",
+      "students": [
+            {
+                  "name": "Jessie",
+                  "age": 1
+            },
+            {
+                  "name": "Sapna",
+                  "age": 1
+            },
+            {
+                  "name": "Coralie",
+                  "age": 1
+            },
+            {
+                  "name": "marni",
+                  "age": 2
+            },
+            {
+                  "name": "Hgdfh",
+                  "age": 23
+            },
+            {
+                  "name": "Marymount",
+                  "age": 20
+            },
+            {
+                  "name": "Waques ",
+                  "age": 25
+            },
+            {
+                  "name": "Fidele",
+                  "age": 26
+            },
+            {
+                  "name": "Veera ",
+                  "age": 25
+            },
+            {
+                  "name": "Aaron",
+                  "age": 32
+            },
+            {
+                  "name": "Francis",
+                  "age": 18
+            }
+      ]
+}

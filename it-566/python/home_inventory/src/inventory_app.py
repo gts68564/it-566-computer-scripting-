@@ -39,8 +39,7 @@ class InventoryApp():
 		print()
 
 	def process_menu_choice(self):
-		"""Process menu choi
-		ce and execute corrensponding methods."""
+		"""Process menu choice and execute corresponding methods."""
 		self.menu_choice = input('Please enter menu item number: ')
 		if __debug__: 
 			print(f'You entered: {self.menu_choice}')

@@ -13,7 +13,7 @@ class HomeInventory():
         
     def new_inventory(self):
         """Initialize new dictionary to store inventory data."""
-        if (self.dictionary != None) and (bool(self.dictionary)):
+        if (self.dictionary is not None) and (bool(self.dictionary)):
             user_input = input("Safe current inventory? (y/n): ")
             match user_input.lower():
                 case 'y':
@@ -65,7 +65,7 @@ class HomeInventory():
 
     def _get_file_path(self):
         """Get flle path from user."""
-        f_path = input("Please enter path and filename: ")
+        f_path = "../data/inventory.json"
         return f_path
 
     def _initialize_home_inventory_dictionary(self):

@@ -33,6 +33,18 @@
     {
       "item": "printer",
       "count": 1
+    },
+    {
+      "item": "Work Table",
+      "count": 2
+    },
+    {
+      "item": "Coffee Table ",
+      "count": 4
+    },
+    {
+      "item": "kitchen table",
+      "count": 1
     }
   ]
 }

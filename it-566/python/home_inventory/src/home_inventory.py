@@ -63,6 +63,7 @@ class HomeInventory():
             else:
                 print(f'{key}: \t {value}')
 
+
     def _get_file_path(self):
         """Get flle path from user."""
         f_path = "../data/inventory.json"

@@ -103,7 +103,8 @@ class InventoryApp():
 		while self.keep_going:
 			self.display_menu()
 			self.process_menu_choice()
-			
+
+
 					
 
 

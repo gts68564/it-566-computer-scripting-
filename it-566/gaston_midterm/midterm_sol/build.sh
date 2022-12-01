@@ -96,7 +96,7 @@ process_arguments() {
 			;;
 
 		*) 	# Otherwise, call default_action with all arguments
-			default_action $@
+			default_action "$@"
 	esac
 }
 

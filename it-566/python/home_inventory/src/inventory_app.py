@@ -16,6 +16,7 @@ class InventoryApp():
 		self.LIST_INVENTORY='3'
 		self.ADD_ITEMS='4'
 		self.SAVE_INVENTORY='5'
+		self.SEARCH_INVENTORY='6'
 		self.EXIT='7'
 		# Fields
 		self.menu_choice = 1
@@ -35,6 +36,7 @@ class InventoryApp():
 		print('\t\t3. List Inventory')
 		print('\t\t4. Add Items')
 		print('\t\t5. Save Inventory')
+		print('\t\t6. Search Inventory')
 		print('\t\t7. Exit')
 		print()
 
@@ -54,6 +56,8 @@ class InventoryApp():
 				self.add_items()
 			case self.SAVE_INVENTORY:
 				self.save_inventory()
+			case self.SEARCH_INVENTORY:
+				self.search_inventory()
 			case self.EXIT:
 				if __debug__:
 					print('Goodbye!')
@@ -73,6 +77,13 @@ class InventoryApp():
 		if __debug__:
 			print('load_inventory() method called...')
 		self.home_inventory.load_inventory()
+
+	def search_inventory(self):
+		"search the inventory for items"
+
+		if __debug__:
+			print("Search_inventory method called...")
+		self.home_inventory.search_inventory()
 
 	def list_inventory(self):
 		"""List inventory."""

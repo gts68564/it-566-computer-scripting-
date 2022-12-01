@@ -10,7 +10,7 @@ class HomeInventory():
     def __init__(self):
         """Initialize Home Inventory object."""
         self._initialize_home_inventory_dictionary()
-        
+
     def new_inventory(self):
         """Initialize new dictionary to store inventory data."""
         if (self.dictionary is not None) and (bool(self.dictionary)):
@@ -63,6 +63,15 @@ class HomeInventory():
             else:
                 print(f'{key}: \t {value}')
 
+    def search_inventory(self):
+        file_path = self._get_file_path()
+        search_key = input("Enter the name of the item to lookup: ")
+        with open(file_path, "r") as f:
+            data = json.load(f)
+        for item in data["items"]:
+            for key, value in item.items():
+                if key == 'item' and value == search_key:
+                    print(item)
 
     def _get_file_path(self):
         """Get flle path from user."""
@@ -78,6 +87,3 @@ class HomeInventory():
         self.dictionary['items'] = []
         if __debug__:
             print("New Home Inventory Initialized")
-
-
-
